@@ -3,7 +3,7 @@ $(function () {
     // adjusting height
     var windowHeight    = $(window).height(),
         upperBar        = $(".upper-bar").innerHeight(),
-        navbar          =$(".navbar").innerHeight();
+        navbar          = $(".navbar").innerHeight();
     $(".slider, .carousel-item").height((windowHeight - (upperBar + navbar)));
     // making shuffle
     $(".featured-work ul li").on("click", function () {
